@@ -1,0 +1,12 @@
+title: My Jekyll Website
+description: A simple Jekyll website
+url: https://metiy.com
+baseurl: "/myjekyllwebsite"
+
+theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-feed
+
+markdown: kramdown
+permalink: /:categories/:title/
