@@ -3,6 +3,7 @@
 目前服务列表
 
 * [chat inside ](https://c.tibok.org)
+* [json api debug](https://j.tibok.org)
 
 目前机器列表
 
