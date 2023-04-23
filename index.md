@@ -4,6 +4,7 @@
 
 * [chat inside ](https://c.tibok.org)
 * [json api debug](https://j.tibok.org)
+* [1.5t mem notebook](http://10.254.28.2:8888/)
 
 
 事务同步
