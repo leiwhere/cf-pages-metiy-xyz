@@ -5,6 +5,14 @@
 * [chat inside ](https://c.tibok.org)
 * [json api debug](https://j.tibok.org)
 
+
+事务同步
+* 中文资料  楠
+* 安全类资料  楠
+* opt 175 - bloom 175 - 关
+* copilot LBS - 童
+
+
 目前机器列表
 
 * v100 - 28.1  主要阿关使用
