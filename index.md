@@ -11,8 +11,15 @@
 * 安全类资料  楠
 * opt 175 - bloom 175 - 关
 * secruity - playgroud 关 童
-* dolly - w
-
+* dolly - 测试，训练代码
+* moss - 测试，训练代码
+* belle - 测试，训练
+* llama 65 - 测试，训练
+* bloomz 17天- 训练代码
+* 标注语料 - 恶代相关
+* 标注语料 - 网安相关
+* 标注语料 - 雾zhi
+* 四月总结 - notion
 
 
 目前机器列表
