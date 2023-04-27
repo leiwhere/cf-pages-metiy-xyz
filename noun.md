@@ -14,5 +14,5 @@
 * 训练
 * 微调
 * lora
-* fune-turn
+* finetune
 * transformer
