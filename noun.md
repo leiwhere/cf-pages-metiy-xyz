@@ -1,6 +1,9 @@
 * 模型中毒
 * 投毒
 * 幻觉
+* 遗忘
+* prompt
+* chain of thought 思维链
 * 预训练参数 权重
 * 优化器
 * 注意力机制 attention
@@ -13,5 +16,3 @@
 * lora
 * fune-turn
 * transformer
-* prompt engine 提示？？
-* chain of thought 思维链
