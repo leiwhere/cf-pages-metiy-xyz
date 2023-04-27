@@ -12,6 +12,7 @@
 * ~~中文资料  楠 完成~~
 * ~~安全类资料  楠 完成~~
 * 将以上资料转为 txt - 张
+* 中文语料打分系统
 * opt 175 - bloom 175 - 关
 * secruity - playgroud 关 童
 * 代码归集 git notebook
