@@ -6,7 +6,6 @@
 * 注意力机制 attention
 * 注意头
 * 多头注意力
-* token
 * token 编码 解码
 * 编码器 解码器
 * 训练
@@ -14,4 +13,5 @@
 * lora
 * fune-turn
 * transformer
-* 
+* prompt engine 提示？？
+* chain of thought 思维链
