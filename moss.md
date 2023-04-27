@@ -1,9 +1,8 @@
 我们使用 Anaconda 管理python环境
 
-假设你已经安装完了 Anaconda
+假设你已经安装完了 Anaconda , 并设置好了环境 ， 比如 新建 虚拟 env
 
-
-* 首先使用下面的命令 ， 安装 需要的 开发库
+### 安装 , 使用下面的命令 ， 安装 需要的 开发库
 
 ```
 pip install -r requirements.txt
@@ -24,7 +23,7 @@ mdtex2html
 triton
 ```
 
-* 使用下面的代码测试对话 , 这个代码是工作在 CPU 上
+### 使用下面的代码测试对话 , 这个代码是工作在 CPU 上
 
 ```
 #!/usr/bin/python
@@ -84,7 +83,7 @@ print(response)
 
 
 
-* 使用 GPU 测试对话
+### 使用 GPU 测试对话
 
 ```
 #!/usr/bin/python
@@ -95,7 +94,7 @@ from transformers import AutoTokenizer, AutoModelForCausalLM
 
 
 # 加载 分词器 和 模型
-# 第一次运行时，会在网络下载 模型文件
+# 第一次运行时，会在网络下载 模型文件 , 模型会放入 GPU 中
 tokenizer = AutoTokenizer.from_pretrained("fnlp/moss-moon-003-sft", trust_remote_code=True)
 model = AutoModelForCausalLM.from_pretrained("fnlp/moss-moon-003-sft", trust_remote_code=True).half().cuda()
 model = model.eval()
