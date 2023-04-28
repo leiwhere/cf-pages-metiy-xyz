@@ -13,7 +13,6 @@
 * ~~中文资料  楠 完成~~
 * ~~安全类资料  楠 完成~~
 * ~~将以上资料转为 txt - 张~~
-* 搜集可用语料
 * 清洗 资料
 * 中文语料打分系统
 * 语料标注
@@ -41,6 +40,7 @@
 * 3090x8 - 28.4  王老师 , 关
 
 数据集 
+* 搜集可用语料
 * [py150](https://www.sri.inf.ethz.ch/py150)  --- [py150-files](http://files.srl.inf.ethz.ch/data/py150_files.tar.gz)
 * [CodeSearchNet](https://github.com/github/CodeSearchNet)
 * [https://github.com/LittleYUYU/StackOverflow-Question-Code-Dataset](https://github.com/LittleYUYU/StackOverflow-Question-Code-Dataset)
