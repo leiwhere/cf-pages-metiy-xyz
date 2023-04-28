@@ -2,6 +2,7 @@
 * 投毒
 * 幻觉
 * 遗忘
+* 自监督
 * prompt
 * chain of thought 思维链
 * 预训练参数 权重
