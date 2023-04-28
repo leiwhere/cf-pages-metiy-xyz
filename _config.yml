@@ -2,8 +2,5 @@ title: metiy.xyz
 description: 快速导航页
 url: https://metiy.xyz
 baseurl: "/"
-
-# theme: jekyll-theme-minimal
-theme: jekyll-theme-dark
-
+theme: dinky 
 markdown: kramdown
