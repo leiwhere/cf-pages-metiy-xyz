@@ -5,6 +5,7 @@ baseurl: "/"
 
 markdown: kramdown
 
+theme: jekyll-theme-minimal
 
 #remote_theme: pages-themes/midnight@v0.2.0
 #plugins:
