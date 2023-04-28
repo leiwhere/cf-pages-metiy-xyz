@@ -1,6 +1,4 @@
-资源索引
-
-目前服务列表
+### 目前服务列表
 
 * [chat inside ](https://c.tibok.org)
 * [json api debug](https://j.tibok.org)
@@ -10,7 +8,7 @@
 * [MOSS 测试笔记](moss.md)
 * [本地的 MOSS 环境](moss_on_3090.md)
 
-事务同步
+### 事务同步
 * ~~中文资料  楠 完成~~
 * ~~安全类资料  楠 完成~~
 * ~~将以上资料转为 txt - 张~~
@@ -33,14 +31,14 @@
 * 四月总结 - notion
 
 
-目前机器列表
+### 目前机器列表
 
 * v100 - 28.1  主要阿关使用
 * v100 - 28.2  王老师
 * v100 - 28.3  童
 * 3090x8 - 28.4  王老师 , 关
 
-数据集 
+### 数据集 
 * 搜集可用语料
 * [py150](https://www.sri.inf.ethz.ch/py150)  --- [py150-files](http://files.srl.inf.ethz.ch/data/py150_files.tar.gz)
 * [CodeSearchNet](https://github.com/github/CodeSearchNet)
