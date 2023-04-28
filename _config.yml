@@ -3,7 +3,7 @@ description: quick access
 url: https://metiy.xyz
 baseurl: "/"
 
-- theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 theme: jekyll-theme-dark
 
 markdown: kramdown
