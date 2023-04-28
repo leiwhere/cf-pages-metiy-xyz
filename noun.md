@@ -20,5 +20,5 @@
 * transformer
 * zero-shot
 * few-shot
-* Chinchilla Scaling Law 金吉拉规则，对于大语言模型，充分训练所需的语料经验值为模型参数的20～50倍（20 tokens per param）
+* Chinchilla Scaling Law 金吉拉规则，对于大语言模型，充分训练所需的语料经验值为模型参数的20～50倍（ 20 tokens per param ）[参考](https://lifearchitect.ai/chinchilla/#:~:text=In%20Sep%2F2022%2C%20DeepMind%20%28Chinchilla%20paper%29%20found%20new%20data,train%20a%20data-optimal%20LLM%20of%20size%2070B%20parameters)
 * 灾难性遗忘，二次训练模型时会发生模型在预训练过的任务表现极具变差的情况，这种现象倍称作灾难性遗忘
