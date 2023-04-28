@@ -16,7 +16,7 @@
 * 中文语料打分系统
 * 语料标注
 * 偏好训练
-* opt 175 - bloom 175 - 关
+* opt 175 - ~~bloom 175~~ - 关
 * secruity - playgroud 关 童
 * 代码归集 git notebook
 * dolly - 测试，训练代码
