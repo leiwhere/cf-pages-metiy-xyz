@@ -13,6 +13,8 @@
 * 编码器 解码器
 * 训练
 * 微调
-* lora
+* LORA
 * finetune
 * transformer
+* zero-shot
+* few-shot
