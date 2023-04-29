@@ -31,6 +31,7 @@
 * 标注语料 - 雾zhi
 * 四月总结 - notion
 * 签署 MOSS 授权协议
+* [考察brat](http://brat.nlplab.org/index.html)
 
 ### 目前机器列表
 
