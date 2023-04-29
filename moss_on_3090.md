@@ -11,11 +11,42 @@
 train_moss.py  input_model  out_model  data.txt
 ```
 
+
 ### 训练工具(finetune) finetune_moss.py
 
 ```
-finetune_moss.py
+usage: finetune_moss.py [-h] [--model_path MODEL_PATH] [--data_dir DATA_DIR] [--output_dir OUTPUT_DIR]
+                        [--log_dir LOG_DIR] [--max_seq_len MAX_SEQ_LEN] [--train_bsz_per_gpu TRAIN_BSZ_PER_GPU]
+                        [--eval_bsz_per_gpu EVAL_BSZ_PER_GPU] [--weight_decay WEIGHT_DECAY]
+                        [--learning_rate LEARNING_RATE] [--warmup_rates WARMUP_RATES] [--n_epochs N_EPOCHS]
+                        [--save_step SAVE_STEP] [--eval_step EVAL_STEP] [--seed SEED]
+optional arguments:
+  -h, --help            show this help message and exit
+  --model_path MODEL_PATH
+  --data_dir DATA_DIR
+  --output_dir OUTPUT_DIR
+  --log_dir LOG_DIR
+  --max_seq_len MAX_SEQ_LEN
+  --train_bsz_per_gpu TRAIN_BSZ_PER_GPU
+  --eval_bsz_per_gpu EVAL_BSZ_PER_GPU
+  --weight_decay WEIGHT_DECAY
+  --learning_rate LEARNING_RATE
+  --warmup_rates WARMUP_RATES
+  --n_epochs N_EPOCHS
+  --save_step SAVE_STEP
+  --eval_step EVAL_STEP
+  --seed SEED
+
+
+examples:
+
 ```
+
+### 训练数据 finetune
+
+```
+```
+
 
 ### 训练工具(LORA) LORA_moss.py
 
