@@ -1,6 +1,7 @@
 ### 参考资料
 
 * [github  ssbuild  moss finetune](https://github.com/ssbuild/moss_finetuning)
+* [ssbuild deep training](https://github.com/ssbuild/deep_training)
 * [在 docker 中使用 moss](https://github.com/linonetwo/MOSS-DockerFile)
  
 ### 在 3090 上使用测试 MOSS
