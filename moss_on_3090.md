@@ -5,10 +5,27 @@
 * run_cuda_docker.sh 会 将 ~/workplace/exp 映射进 docker ，名字叫 /home/dev ， 所有的代码 都 建议 保存在 workplace 里面 。
 * 因为 docker 是独占使用 GPU ，所以使用的时候 请 大家 做好协同工作 。
 
-### 训练工具 finetune_moss.py
+### 训练工具(背诵阶段) train_moss.py
+
+```
+train_moss.py  input_model  out_model  data.txt
+```
+
+### 训练工具(finetune) finetune_moss.py
 
 ```
 finetune_moss.py
+```
+
+### 训练工具(LORA) LORA_moss.py
+
+
+```
+```
+
+### 测试工具 moss_cli_chat.py 
+
+```
 ```
 
 ### 训练数据 
@@ -16,7 +33,3 @@ finetune_moss.py
 ```
 ```
 
-### 测试工具 moss_cli_demo.py 
-
-```
-```
