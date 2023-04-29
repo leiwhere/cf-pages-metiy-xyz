@@ -1,3 +1,8 @@
+### 参考资料
+
+* [github  ssbuild  moss finetune](https://github.com/ssbuild/moss_finetuning)
+* [在 docker 中使用 moss](https://github.com/linonetwo/MOSS-DockerFile)
+ 
 ### 在 3090 上使用测试 MOSS
 
 * 建议所有的工作，在docker上完成，尽量不要污染 host 系统。
