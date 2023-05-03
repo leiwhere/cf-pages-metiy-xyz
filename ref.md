@@ -2,4 +2,7 @@
 * [大语言模型快速推理：在 Habana Gaudi2 上推理 BLOOMZ](https://huggingface.co/blog/zh/habana-gaudi-2-bloom)
 * [StackLLaMA：使用 RLHF 训练 LLaMA 的实践指南](https://hub.baai.ac.cn/view/25341)
 * [大模型训练实战](https://techdiylife.github.io/)
+* [RLHF 实践教程: 训练 LLaMA 模型回答 Stack Exchange 上的问题 作者：HuggingFace](https://huggingface.co/blog/stackllama)
+* [使用 LoRA 和 Hugging Face 高效训练大语言模型](https://www.bilibili.com/read/cv23019960)
+* [Hugging News #0428: HuggingChat 来啦！](https://www.bilibili.com/read/cv23388841)
 * 
