@@ -5,4 +5,5 @@
 * [RLHF 实践教程: 训练 LLaMA 模型回答 Stack Exchange 上的问题 作者：HuggingFace](https://huggingface.co/blog/stackllama)
 * [使用 LoRA 和 Hugging Face 高效训练大语言模型](https://www.bilibili.com/read/cv23019960)
 * [Hugging News #0428: HuggingChat 来啦！](https://www.bilibili.com/read/cv23388841)
+* [使用 DeepSpeed 和 Hugging Face Transformer 微调 FLAN-T5 XL/XXL](https://www.bilibili.com/read/cv22542818)
 * 
