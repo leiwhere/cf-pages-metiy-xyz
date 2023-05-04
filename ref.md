@@ -10,3 +10,4 @@
 * [OpenLLama 项目，LLama模型的开源复现](https://huggingface.co/openlm-research/open_llama_7b_preview_200bt)
 * [闻达：一个大规模语言模型调用平台](https://github.com/l15y/wenda)
 * [发布几个RWKV的Chat模型（包括英文和中文）7B/14B欢迎大家玩](https://zhuanlan.zhihu.com/p/618011122)
+* [当你有100万GPU小时，如何选择合适的语言模型](arXiv:2210.15424）
