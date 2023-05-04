@@ -7,3 +7,4 @@
 * [Hugging News #0428: HuggingChat 来啦！](https://www.bilibili.com/read/cv23388841)
 * [使用 DeepSpeed 和 Hugging Face Transformer 微调 FLAN-T5 XL/XXL](https://www.bilibili.com/read/cv22542818)
 * [2.7B 的代码补全模型](https://huggingface.co/replit/replit-code-v1-3b)
+* [OpenLLama 项目，LLama模型的开源复现](https://huggingface.co/openlm-research/open_llama_7b_preview_200bt)
