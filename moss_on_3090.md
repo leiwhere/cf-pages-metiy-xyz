@@ -4,7 +4,11 @@
 * [ssbuild deep training](https://github.com/ssbuild/deep_training)
 * [在 docker 中使用 moss](https://github.com/linonetwo/MOSS-DockerFile)
 * 依据 [弥补斯坦福70亿参数“羊驼”短板，精通中文的大模型来了，已开源](https://www.thepaper.cn/newsDetail_forward_22396024) ， batchsize 64 ， lr 3e-6 ，epochs 3 ，weight_decay 0.001 ， warmup_rate 0.1 ， lr_scheduler linear
- 
+
+### 3090 notebook
+
+[notebook ， 可以用来处理 数据 ， LMFlow 的数据 在 LMFlow/data 下 ](http://10.254.28.4:8888/)
+
 ### 在 3090 上使用测试 MOSS
 
 * 建议所有的工作，在docker上完成，尽量不要污染 host 系统。
