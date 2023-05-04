@@ -8,3 +8,5 @@
 * [使用 DeepSpeed 和 Hugging Face Transformer 微调 FLAN-T5 XL/XXL](https://www.bilibili.com/read/cv22542818)
 * [2.7B 的代码补全模型](https://huggingface.co/replit/replit-code-v1-3b)
 * [OpenLLama 项目，LLama模型的开源复现](https://huggingface.co/openlm-research/open_llama_7b_preview_200bt)
+* [闻达：一个大规模语言模型调用平台](https://github.com/l15y/wenda)
+* [发布几个RWKV的Chat模型（包括英文和中文）7B/14B欢迎大家玩](https://zhuanlan.zhihu.com/p/618011122)
