@@ -12,7 +12,7 @@
 ### 训练框架
 
 * [DeepSpeed](https://www.deepspeed.ai/)
-* [Lightting](https://www.lightning.ai/)
+* [Lightning](https://www.lightning.ai/)
 * [Accelerate](https://huggingface.co/docs/accelerate/index)
 
 ### 标注工具
