@@ -15,6 +15,10 @@
 * [Lightning](https://www.lightning.ai/)
 * [Accelerate](https://huggingface.co/docs/accelerate/index)
 
+### 其他技巧
+
+* 先 LoRA 训练再合并，参考项目 [Chinese-LLaMA-Alpaca](https://github.com/ymcui/Chinese-LLaMA-Alpaca)
+
 ### 标注工具
 
 #### Label Studio 社区版
