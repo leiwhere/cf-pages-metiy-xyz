@@ -9,6 +9,12 @@
 * PEFT 用于 LoRA 训练
 * TRL 用于 奖赏模型和PPO训练
 
+### 训练框架
+
+* [DeepSpeed](https://www.deepspeed.ai/)
+* [Lightting](https://www.lightning.ai/)
+* [Accelerate](https://huggingface.co/docs/accelerate/index)
+
 ### 标注工具
 
 #### Label Studio 社区版
