@@ -15,6 +15,7 @@
 * host 的 home 目录下 有一个 脚本 run_cuda_docker.sh  。 这个脚本启动一个 docker ， 并将所有 GPU 映射进 docker 。
 * run_cuda_docker.sh 会 将 ~/workplace/exp 映射进 docker ，名字叫 /home/dev ， 所有的代码 都 建议 保存在 workplace 里面 。
 * 因为 docker 是独占使用 GPU ，所以使用的时候 请 大家 做好协同工作 。
+* 建议所有工作 ， 尽量在 notebook 中 完成 。
 
 ### 训练工具(背诵阶段) train_moss.py
 
