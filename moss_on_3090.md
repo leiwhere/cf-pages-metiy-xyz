@@ -7,7 +7,7 @@
 
 ### 3090 notebook
 
-[notebook ， 可以用来处理 数据 ， LMFlow 的数据 在 LMFlow/data 下 ](http://10.254.28.4:8888/)
+[处理数据的 notebook ， LMFlow 的数据 在 LMFlow/data 下 ](http://10.254.28.4:8888/)
 
 ### 在 3090 上使用测试 MOSS
 
