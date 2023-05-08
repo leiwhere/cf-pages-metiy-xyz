@@ -8,6 +8,21 @@
 * [MOSS 测试笔记](moss.md)
 * [本地的 MOSS 环境](moss_on_3090.md)
 
+###  gpt-neo-125m 流程练习
+
+- [ ] TLDR
+
+- [ ] 数据收集
+- [ ] Doccano 标注
+- [ ] 数据集/数据文件管理 [OpenAI Files API](https://platform.openai.com/docs/api-reference/files)
+- [ ] 训练服务
+- [ ] [OpenAI 兼容的 API 服务](https://platform.openai.com/docs/api-reference/introduction)
+- [ ] [Playground](https://github.com/nat/openplayground)
+    - [ ] Chat 服务
+
+
+
+
 ### 事务同步
 * ~~中文资料  楠 完成~~
 * ~~安全类资料  楠 完成~~
