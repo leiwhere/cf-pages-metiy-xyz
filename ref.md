@@ -13,4 +13,5 @@
 * [当你有100万GPU小时，如何选择合适的语言模型](arXiv:2210.15424）
 * [标注 bigscience-workshop/prompt source](https://github.com/bigscience-workshop/promptsource)
 * [star coder huggingface  playground](https://huggingface.co/spaces/bigcode/bigcode-playground)
-* [huggingface chat] (https://huggingface.co/chat/conversation/645b1072d422882b4eac42eb)
+* [huggingface chat](https://huggingface.co/chat/conversation/645b1072d422882b4eac42eb)
+* [OpenAI API兼容项目](https://github.com/hyperonym/basaran)
