@@ -17,3 +17,4 @@
 * [huggingface chat](https://huggingface.co/chat/conversation/645b1072d422882b4eac42eb)
 * [OpenAI API兼容项目](https://github.com/hyperonym/basaran)
 * [开源 LLMOps 平台](https://www.oschina.net/news/241075/dify-open-source)
+* [Cisco AnyConnect Secure Mobility Client 下载](https://study.dh90.cn/158.html)
