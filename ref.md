@@ -18,3 +18,4 @@
 * [OpenAI API兼容项目](https://github.com/hyperonym/basaran)
 * [开源 LLMOps 平台](https://www.oschina.net/news/241075/dify-open-source)
 * [Cisco AnyConnect Secure Mobility Client 下载](https://study.dh90.cn/158.html)
+* [注册美区 apple id 以便安装 poe wireguard 等](https://zhuanlan.zhihu.com/p/623576755)
