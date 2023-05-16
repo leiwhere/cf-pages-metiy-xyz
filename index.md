@@ -10,6 +10,7 @@
 * [各种名词列表](noun.md)
 * [MOSS 测试笔记](moss.md)
 * [本地的 MOSS 环境](moss_on_3090.md)
+* [训练任务管理](http://tt.metiy.xyz:7799/)
 
 ###  gpt-neo-125m 流程练习
 
