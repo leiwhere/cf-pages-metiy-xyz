@@ -20,3 +20,5 @@
 * [Cisco AnyConnect Secure Mobility Client 下载](https://study.dh90.cn/158.html)
 * [注册美区 apple id 以便安装 poe wireguard 等](https://zhuanlan.zhihu.com/p/623576755)
 * [Meta AI 发布的 MEGABYTE 模型，无需 tokenizer 厂上下文，复杂度 seq_len 的 4/3 次方模型](arXiv:2305.07185)
+* [有卖 api 的，不知道真假](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
+* 
