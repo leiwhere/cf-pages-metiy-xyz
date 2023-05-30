@@ -11,6 +11,8 @@
 * [MOSS 测试笔记](moss.md)
 * [本地的 MOSS 环境](moss_on_3090.md)
 * [训练任务管理](http://tt.metiy.xyz:7799/)
+* [数据集服务](http://10.254.28.4:9000/)
+* [训练机屏幕](https://tame-abrasive-taste.glitch.me/screen)
 
 ###  gpt-neo-125m 流程练习
 
