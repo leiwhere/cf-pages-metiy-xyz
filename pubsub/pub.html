@@ -9,7 +9,7 @@
 let input = document.getElementById('myInput');
 let button = document.getElementById('myButton');
 
-input.addEventListener('compositionend', function(event) {
+input.addEventListener('input', function(event) {
     //console.log('Input changed: ', event.data);
     console.log('Input changed: ', event.target.value)
     window._g_ws.send(event.target.value)
