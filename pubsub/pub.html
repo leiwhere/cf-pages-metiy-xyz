@@ -10,7 +10,7 @@ let input = document.getElementById('myInput');
 let button = document.getElementById('myButton');
 
 input.addEventListener('input', function(event) {
-    console.log('Input changed: ', event.target.value);
+    console.log('Input changed: ', event.data);
 });
 
 button.addEventListener('click', function() {
@@ -32,7 +32,7 @@ let sub_end_point = "ws://10.254.28.3:3030/sub"
 let endpoint = pub_end_point 
 
 function connect() {
-    socket = new WebSocket(endpoint );
+    socket = new WebSocket( endpoint );
 
     // 连接成功时的处理逻辑
     socket.onopen = () => {
