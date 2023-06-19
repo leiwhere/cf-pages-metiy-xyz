@@ -10,9 +10,9 @@ let input = document.getElementById('myInput');
 let button = document.getElementById('myButton');
 
 input.addEventListener('input', function(event) {
-    //console.log('Input changed: ', event.data);
-    console.log('Input changed: ', event.target.value)
-    window._g_ws.send(event.target.value)
+    console.log('Input changed: ', event.data);
+    //console.log('Input changed: ', event.target.value)
+    window._g_ws.send(event.data)
 });
 
 button.addEventListener('click', function() {
