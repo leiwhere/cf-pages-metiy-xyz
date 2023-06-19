@@ -44,7 +44,7 @@ function connect() {
         console.log('Received: ' + message.data);
         if(message.data.length == 0) return
         let input = document.getElementById('myInput');
-        input.value =  message.data
+        input.value =  input.value + message.data
     };
 
     // 连接关闭或连接出错时的处理逻辑
