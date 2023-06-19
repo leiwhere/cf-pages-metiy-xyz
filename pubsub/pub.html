@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<textarea id="myInput" rows="40" cols="120"></textarea>
+<button id="myButton">执行</button>
+
+<script>
+let input = document.getElementById('myInput');
+let button = document.getElementById('myButton');
+
+button.addEventListener('click', function() {
+  // 执行输入的内容
+  try {
+    eval(input.value);
+  } catch (error) {
+    console.error('执行错误：' + error.message);
+  }
+});
+</script>
+
+</body>
+</html>
