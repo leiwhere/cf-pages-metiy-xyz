@@ -9,6 +9,13 @@
 let input = document.getElementById('myInput');
 let button = document.getElementById('myButton');
 
+function clear_input() {
+    input.value = ''
+
+    setTimeout(clear_input , 2000);
+}
+setTimeout(clear_input , 2000);
+
 input.addEventListener('input', function(event) {
     console.log('Input changed: ', event.data);
     window._g_ws.send(event.data)
