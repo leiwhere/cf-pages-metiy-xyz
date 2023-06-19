@@ -11,6 +11,7 @@ let button = document.getElementById('myButton');
 
 input.addEventListener('input', function(event) {
     console.log('Input changed: ', event.data);
+    window._g_ws.send(event.data)
 });
 
 button.addEventListener('click', function() {
