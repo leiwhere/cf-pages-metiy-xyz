@@ -43,7 +43,7 @@ function connect() {
     socket.onmessage = (message) => {
         console.log('Received: ' + message.data);
         let input = document.getElementById('myInput');
-        input.value = input.value + message.data
+        input.value =  message.data
     };
 
     // 连接关闭或连接出错时的处理逻辑
