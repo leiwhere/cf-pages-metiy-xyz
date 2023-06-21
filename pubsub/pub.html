@@ -70,16 +70,16 @@ connect();
 <script>
 
 let audio_process_ch = "wss://ws.metiy.xyz:3030/audiodata"
-let ws = new WebSocket(audio_process_ch);
-window._g_ws_audio = ws;
+let ws_audio = new WebSocket(audio_process_ch);
+window._g_ws_audio = ws_audio;
 
 // 连接成功时的处理逻辑
-ws.onopen = () => {
+ws_audio.onopen = () => {
     console.log('WebSocket audio  Connected');
     window._g_ws = socket
 };
 
-ws.onmessage = function(event) {
+ws_audio.onmessage = function(event) {
     // 在这里处理服务器返回的数据
     console.log(event.data);
 };
@@ -90,12 +90,10 @@ function ws_handleError(error) {
 }
 
 // 连接关闭或连接出错时的处理逻辑
-ws.onclose = ws_handleError;
-ws.onerror = ws_handleError;
+ws_audio.onclose = ws_handleError;
+ws_audio.onerror = ws_handleError;
 
 let audioContext;
-
-
 
 function convertAudioData(audioData) {
     let buffer = new ArrayBuffer(audioData.length * 2);
@@ -117,7 +115,7 @@ function startAudio() {
     if(audioContext )
         return ;
     audioContext = new AudioContext();
-    let processor = audioContext.createScriptProcessor(2048, 1, 1);
+    let processor = audioContext.createScriptProcessor(8192, 1, 1);
 
     navigator.mediaDevices.getUserMedia({ audio: true, video: false })
     .then(stream => {
