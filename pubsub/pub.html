@@ -70,19 +70,28 @@ connect();
 <script>
 
 let audio_process_ch = "wss://ws.metiy.xyz:3030/audiodata"
-let websocket = new WebSocket(audio_process_ch);
-window._g_ws_audio = websocket;
+let ws = new WebSocket(audio_process_ch);
+window._g_ws_audio = ws;
 
 // 连接成功时的处理逻辑
-websocket.onopen = () => {
+ws.onopen = () => {
     console.log('WebSocket audio  Connected');
     window._g_ws = socket
 };
 
-websocket.onmessage = function(event) {
+ws.onmessage = function(event) {
     // 在这里处理服务器返回的数据
     console.log(event.data);
 };
+
+function ws_handleError(error) {
+    console.log('WebSocket error: ', error);
+    console.log('Reconnecting...');
+}
+
+// 连接关闭或连接出错时的处理逻辑
+ws.onclose = ws_handleError;
+ws.onerror = ws_handleError;
 
 let audioContext;
 
