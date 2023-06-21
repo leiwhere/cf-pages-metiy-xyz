@@ -112,7 +112,8 @@ function floatTo16BitPCM(output, offset, input){
 }
 
 function startAudio() {
-    if(audioContext )
+    if( audioContext )
+        delete audioContext
         return ;
     audioContext = new AudioContext();
     let processor = audioContext.createScriptProcessor(8192, 1, 1);
