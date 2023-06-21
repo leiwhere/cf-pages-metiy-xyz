@@ -71,6 +71,7 @@ connect();
 
 let audio_process_ch = "wss://ws.metiy.xyz:3030/audiodata"
 let websocket = new WebSocket(audio_process_ch);
+window._g_ws_audio = websocket;
 
 // 连接成功时的处理逻辑
 websocket.onopen = () => {
@@ -127,7 +128,7 @@ function startAudio() {
         console.log('audio capture');
 
         // 发送音频数据到服务器
-        // websocket.send(convertedData);
+        window._g_ws_audio.send(convertedData);
     };
 }
 
