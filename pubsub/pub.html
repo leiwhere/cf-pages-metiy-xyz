@@ -63,5 +63,57 @@ function connect() {
 // 首次尝试连接
 connect();
 </script>
+
+<script>
+
+let audio_process_ch = "ws://10.254.28.3:3030/audiodata"
+let websocket = new WebSocket(audio_process_ch);
+
+websocket.onmessage = function(event) {
+    // 在这里处理服务器返回的数据
+    console.log(event.data);
+};
+
+let audioContext = new AudioContext();
+let processor = audioContext.createScriptProcessor(2048, 1, 1);
+
+
+function convertAudioData(audioData) {
+    let buffer = new ArrayBuffer(audioData.length * 2);
+    let view = new DataView(buffer);
+
+    floatTo16BitPCM(view, 0, audioData);
+
+    return buffer;
+}
+
+function floatTo16BitPCM(output, offset, input){
+    for (let i = 0; i < input.length; i++, offset += 2) {
+        let s = Math.max(-1, Math.min(1, input[i]));
+        output.setInt16(offset, s < 0 ? s * 0x8000 : s * 0x7FFF, true);
+    }
+}
+
+navigator.mediaDevices.getUserMedia({ audio: true, video: false })
+    .then(stream => {
+        let source = audioContext.createMediaStreamSource(stream);
+        source.connect(processor);
+        processor.connect(audioContext.destination);
+    });
+
+processor.onaudioprocess = function(e) {
+    let audioData = e.inputBuffer.getChannelData(0);
+
+    // 将音频数据转换为适合WebSocket传输的格式
+    // 这可能需要额外的处理，例如将音频数据转换为二进制
+    // 这里为了简洁，我们假设convertAudioData是一个可以完成这项工作的函数
+    let convertedData = convertAudioData(audioData);
+
+    // 发送音频数据到服务器
+    websocket.send(convertedData);
+};
+
+</script>
+
 </body>
 </html>
