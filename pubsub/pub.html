@@ -75,6 +75,7 @@ websocket.onopen = () => {
     console.log('WebSocket audio  Connected');
     window._g_ws = socket
 };
+
 websocket.onmessage = function(event) {
     // 在这里处理服务器返回的数据
     console.log(event.data);
@@ -118,9 +119,11 @@ function startAudio() {
         // 这可能需要额外的处理，例如将音频数据转换为二进制
         // 这里为了简洁，我们假设convertAudioData是一个可以完成这项工作的函数
         let convertedData = convertAudioData(audioData);
-    
+
+        console.log('audio capture');
+
         // 发送音频数据到服务器
-        websocket.send(convertedData);
+        // websocket.send(convertedData);
     };
 }
 
