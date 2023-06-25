@@ -46,7 +46,7 @@ function connect() {
     };
 
     // 接收消息时的处理逻辑
-    window._g_ws.onmessage = (message) => {
+    socket.onmessage = (message) => {
         console.log('Received: ' + message.data);
     };
 
