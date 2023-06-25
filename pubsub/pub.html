@@ -113,6 +113,12 @@ function convertAudioData(audioData) {
   return binaryData;
 }
 
+const audioContextOptions = {
+  sampleRate: 16000,       // 设置采样率为 16000 Hz
+  bitDepth: 16,            // 设置深度为 16 位
+  channelCount: 1          // 设置通道数为 1
+};
+
 function startAudio() {
     if( audioContext )
     {
@@ -121,7 +127,7 @@ function startAudio() {
         audioContext = null;
         return ;
     }
-    audioContext = new AudioContext();
+    audioContext = new AudioContext(audioContextOptions);
     let processor = audioContext.createScriptProcessor(8192, 1, 1);
 
     navigator.mediaDevices.getUserMedia({ audio: true, video: false })
