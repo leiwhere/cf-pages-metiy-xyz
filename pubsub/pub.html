@@ -98,19 +98,19 @@ ws_audio.onerror = ws_handleError;
 let audioContext;
 
 function convertAudioData(audioData) {
-    let buffer = new ArrayBuffer(audioData.length * 2);
-    let view = new DataView(buffer);
+  const bufferLength = audioData.length * Float32Array.BYTES_PER_ELEMENT;
+  const buffer = new ArrayBuffer(bufferLength);
+  const floatArray = new Float32Array(buffer);
 
-    floatTo16BitPCM(view, 0, audioData);
+  // 将音频数据复制到Float32Array
+  for (let i = 0; i < audioData.length; i++) {
+    floatArray[i] = audioData[i];
+  }
 
-    return buffer;
-}
+  // 将Float32Array转换为二进制数据
+  const binaryData = buffer;
 
-function floatTo16BitPCM(output, offset, input){
-    for (let i = 0; i < input.length; i++, offset += 2) {
-        let s = Math.max(-1, Math.min(1, input[i]));
-        output.setInt16(offset, s < 0 ? s * 0x8000 : s * 0x7FFF, true);
-    }
+  return binaryData;
 }
 
 function startAudio() {
