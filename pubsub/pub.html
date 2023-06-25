@@ -107,10 +107,7 @@ function convertAudioData(audioData) {
     floatArray[i] = audioData[i];
   }
 
-  // 将Float32Array转换为二进制数据
-  const binaryData = buffer;
-
-  return binaryData;
+  return buffer;
 }
 
 const audioContextOptions = {
@@ -146,6 +143,7 @@ function startAudio() {
         let convertedData = convertAudioData(audioData);
 
         console.log('audio capture');
+        console.log('convertedData' , convertedData);
 
         // 发送音频数据到服务器
         window._g_ws_audio.send(convertedData);
