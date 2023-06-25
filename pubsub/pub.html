@@ -37,27 +37,28 @@ let sub_end_point = "wss://ws.metiy.xyz:3030/sub"
 let endpoint = pub_end_point 
 
 function connect() {
-    socket = new WebSocket( endpoint );
+    window._g_ws = new WebSocket( endpoint );
 
     // 连接成功时的处理逻辑
-    socket.onopen = () => {
+    window._g_ws.onopen = () => {
         console.log('WebSocket Client Connected');
         window._g_ws = socket
     };
 
     // 接收消息时的处理逻辑
-    socket.onmessage = (message) => {
+    window._g_ws.onmessage = (message) => {
         console.log('Received: ' + message.data);
     };
 
     // 连接关闭或连接出错时的处理逻辑
-    socket.onclose = handleError;
-    socket.onerror = handleError;
+    window._g_ws.onclose = handleError;
+    window._g_ws.onerror = handleError;
 
     function handleError(error) {
         console.log('WebSocket error: ', error);
         console.log('Reconnecting...');
 
+        delete window._g_ws;
         // 在一段时间后尝试重新连接
         setTimeout(connect , reconnectInterval);
     }
