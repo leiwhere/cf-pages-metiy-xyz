@@ -29,7 +29,7 @@ button.addEventListener('click', function() {
 </script>
 
 <script>
-let socket;
+
 // 设置重连的间隔时间为 5000 毫秒
 let reconnectInterval = 5000;
 let pub_end_point = "wss://ws.metiy.xyz:3030/pub"
@@ -42,7 +42,6 @@ function connect() {
     // 连接成功时的处理逻辑
     window._g_ws.onopen = () => {
         console.log('WebSocket Client Connected');
-        window._g_ws = socket
     };
 
     // 接收消息时的处理逻辑
