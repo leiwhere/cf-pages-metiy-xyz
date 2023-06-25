@@ -128,7 +128,7 @@ function startAudio() {
         return ;
     }
     audioContext = new AudioContext(audioContextOptions);
-    let processor = audioContext.createScriptProcessor(1024, 1, 1);
+    let processor = audioContext.createScriptProcessor(4096, 1, 1);
 
     navigator.mediaDevices.getUserMedia({ audio: true, video: false })
     .then(stream => {
