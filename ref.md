@@ -26,3 +26,13 @@
 * [Meta AI 发布的 MEGABYTE 模型，无需 tokenizer 厂上下文，复杂度 seq_len 的 4/3 次方模型](arXiv:2305.07185)
 * [有卖 api 的，不知道真假](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
 * 
+
+### 训练过程的猜测
+
+* 学习单词
+* 学习句子
+* 简单背诵句子
+* 开始 磕巴 ----- 许多时间
+* 开始理解简单逻辑关系
+* 。。。
+* 
