@@ -29,6 +29,10 @@
 * [chat api 说明](https://platform.openai.com/docs/api-reference/chat)
 * 
 
+
+### git pull fail
+* git stash save "sfgsdgfsdgsg"
+
 ### 训练过程的猜测
 
 * 学习单词
