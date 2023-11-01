@@ -27,8 +27,8 @@
 * [有卖 api 的，不知道真假](https://github.com/PlexPt/awesome-chatgpt-prompts-zh)
 * [chatml 说明](https://github.com/openai/openai-python/blob/main/chatml.md)
 * [chat api 说明](https://platform.openai.com/docs/api-reference/chat)
+*  baichuan2  需要 4.33.2
 * 
-
 
 ### git pull fail
 * git stash save "sfgsdgfsdgsg"
